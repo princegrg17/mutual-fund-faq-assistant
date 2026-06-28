@@ -1,0 +1,30 @@
+{
+  "scheme_id": "nj-flexi-cap-direct-growth",
+  "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+  "category": "Flexi Cap",
+  "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+  "fetched_at": "2026-06-28",
+  "is_amc_page": false,
+  "facts": {
+    "scheme_name": "NJ Flexi Cap Fund Direct Growth",
+    "fund_house": "NJ Mutual Fund",
+    "fund_category": "Equity",
+    "sub_category": "Flexi Cap",
+    "plan_type": "Direct",
+    "expense_ratio": "1.03%",
+    "exit_load": "Nil",
+    "benchmark": "NIFTY 500 Total Return Index",
+    "aum": "₹2,559.89 crore",
+    "min_sip": "₹100",
+    "min_lumpsum": "₹500",
+    "min_additional": "₹500",
+    "lock_in": "No lock-in",
+    "fund_manager": "Dhaval Patel",
+    "launch_date": "05-Sep-2023",
+    "nav": "₹13.37",
+    "nav_date": "25-Jun-2026",
+    "riskometer": "Very High",
+    "isin": "INF0J8L01156"
+  },
+  "prose": "The Scheme is seeks to generate long term capital appreciation by investing in equity and equity related instruments across market capitalizations."
+}

@@ -1,0 +1,27 @@
+# Single source of truth for what gets ingested.
+# Selectors are confirmed against the live Groww DOM in Phase 1.
+schemes:
+  - scheme_id: hdfc-mid-cap-direct-growth
+    name: HDFC Mid-Cap Fund - Direct Growth
+    category: Mid Cap
+    url: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+  - scheme_id: nj-flexi-cap-direct-growth
+    name: NJ Flexi Cap Fund - Direct Growth
+    category: Flexi Cap
+    url: https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth
+  - scheme_id: jm-multi-strategy-direct-growth
+    name: JM Multi Strategy Fund - Direct Growth
+    category: Multi Strategy
+    url: https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth
+  - scheme_id: jm-midcap-direct-growth
+    name: JM Midcap Fund - Direct Growth
+    category: Mid Cap
+    url: https://groww.in/mutual-funds/jm-midcap-fund-direct-growth
+  - scheme_id: lic-mutual-fund-amc
+    name: LIC Mutual Fund
+    category: AMC Overview
+    url: https://groww.in/mutual-funds/amc/lic-mutual-funds
+
+edu_links:                # for refusals only — NOT indexed
+  amfi: https://www.amfiindia.com/investor-corner
+  sebi: https://investor.sebi.gov.in/

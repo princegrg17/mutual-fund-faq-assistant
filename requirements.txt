@@ -1,0 +1,10 @@
+playwright
+beautifulsoup4
+lxml
+sentence-transformers
+chromadb
+anthropic
+streamlit
+pydantic-settings
+pyyaml
+pytest

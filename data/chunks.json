@@ -1,0 +1,1250 @@
+[
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::fund_house",
+    "chunk_type": "fact",
+    "text": "The fund house of HDFC Mid Cap Fund Direct Growth is HDFC Mutual Fund. (AMC, asset management company)",
+    "display": "The fund house of HDFC Mid Cap Fund Direct Growth is HDFC Mutual Fund.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "fund_house",
+    "field_tags": [
+      "fund_house",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::sub_category",
+    "chunk_type": "fact",
+    "text": "The sub-category of HDFC Mid Cap Fund Direct Growth is Mid Cap. (fund type, category)",
+    "display": "The sub-category of HDFC Mid Cap Fund Direct Growth is Mid Cap.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "sub_category",
+    "field_tags": [
+      "sub_category",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::expense_ratio",
+    "chunk_type": "fact",
+    "text": "The expense ratio of HDFC Mid Cap Fund Direct Growth is 0.75%. (annual charges, TER, total expense ratio, fund fees, cost)",
+    "display": "The expense ratio of HDFC Mid Cap Fund Direct Growth is 0.75%.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "expense_ratio",
+    "field_tags": [
+      "expense_ratio",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::exit_load",
+    "chunk_type": "fact",
+    "text": "The exit load of HDFC Mid Cap Fund Direct Growth is Exit load of 1% if redeemed within 1 year.. (redemption charge, exit penalty, early withdrawal fee)",
+    "display": "The exit load of HDFC Mid Cap Fund Direct Growth is Exit load of 1% if redeemed within 1 year..",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "exit_load",
+    "field_tags": [
+      "exit_load",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::benchmark",
+    "chunk_type": "fact",
+    "text": "The benchmark index of HDFC Mid Cap Fund Direct Growth is NIFTY Midcap 150 Total Return Index. (benchmark, index it tracks, compared against)",
+    "display": "The benchmark index of HDFC Mid Cap Fund Direct Growth is NIFTY Midcap 150 Total Return Index.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "benchmark",
+    "field_tags": [
+      "benchmark",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::aum",
+    "chunk_type": "fact",
+    "text": "The assets under management (AUM) of HDFC Mid Cap Fund Direct Growth is ₹97,350.48 crore. (fund size, assets managed, corpus)",
+    "display": "The assets under management (AUM) of HDFC Mid Cap Fund Direct Growth is ₹97,350.48 crore.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "aum",
+    "field_tags": [
+      "aum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::min_sip",
+    "chunk_type": "fact",
+    "text": "The minimum SIP amount of HDFC Mid Cap Fund Direct Growth is ₹100. (minimum SIP, smallest SIP instalment, start SIP amount)",
+    "display": "The minimum SIP amount of HDFC Mid Cap Fund Direct Growth is ₹100.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "min_sip",
+    "field_tags": [
+      "min_sip",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::min_lumpsum",
+    "chunk_type": "fact",
+    "text": "The minimum lumpsum investment of HDFC Mid Cap Fund Direct Growth is ₹100. (minimum one-time investment, lumpsum, minimum investment amount)",
+    "display": "The minimum lumpsum investment of HDFC Mid Cap Fund Direct Growth is ₹100.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "min_lumpsum",
+    "field_tags": [
+      "min_lumpsum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::min_additional",
+    "chunk_type": "fact",
+    "text": "The minimum additional investment of HDFC Mid Cap Fund Direct Growth is ₹100. (additional purchase, top-up minimum)",
+    "display": "The minimum additional investment of HDFC Mid Cap Fund Direct Growth is ₹100.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "min_additional",
+    "field_tags": [
+      "min_additional",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::lock_in",
+    "chunk_type": "fact",
+    "text": "The lock-in period of HDFC Mid Cap Fund Direct Growth is No lock-in. (lock in, lock-in, holding period restriction)",
+    "display": "The lock-in period of HDFC Mid Cap Fund Direct Growth is No lock-in.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "lock_in",
+    "field_tags": [
+      "lock_in",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::fund_manager",
+    "chunk_type": "fact",
+    "text": "The fund manager of HDFC Mid Cap Fund Direct Growth is Chirag Setalvad. (manager, who manages the fund)",
+    "display": "The fund manager of HDFC Mid Cap Fund Direct Growth is Chirag Setalvad.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "fund_manager",
+    "field_tags": [
+      "fund_manager",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::launch_date",
+    "chunk_type": "fact",
+    "text": "The launch date of HDFC Mid Cap Fund Direct Growth is 01-Jan-2013. (inception date, started, launched)",
+    "display": "The launch date of HDFC Mid Cap Fund Direct Growth is 01-Jan-2013.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "launch_date",
+    "field_tags": [
+      "launch_date",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::nav",
+    "chunk_type": "fact",
+    "text": "The NAV (net asset value) of HDFC Mid Cap Fund Direct Growth is ₹226.91. (net asset value, unit price, current NAV)",
+    "display": "The NAV (net asset value) of HDFC Mid Cap Fund Direct Growth is ₹226.91.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "nav",
+    "field_tags": [
+      "nav",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::fact::riskometer",
+    "chunk_type": "fact",
+    "text": "The riskometer (risk level) of HDFC Mid Cap Fund Direct Growth is Very High. (risk level, risk rating, how risky)",
+    "display": "The riskometer (risk level) of HDFC Mid Cap Fund Direct Growth is Very High.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "riskometer",
+    "field_tags": [
+      "riskometer",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::summary::summary",
+    "chunk_type": "summary",
+    "text": "HDFC Mid Cap Fund Direct Growth: scheme name HDFC Mid Cap Fund Direct Growth; fund house HDFC Mutual Fund; fund category Equity; sub-category Mid Cap; plan type Direct; expense ratio 0.75%; exit load Exit load of 1% if redeemed within 1 year.; benchmark index NIFTY Midcap 150 Total Return Index; assets under management (AUM) ₹97,350.48 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹100; minimum additional investment ₹100; lock-in period No lock-in; fund manager Chirag Setalvad; launch date 01-Jan-2013; NAV (net asset value) ₹226.91; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF179K01XQ0.",
+    "display": "HDFC Mid Cap Fund Direct Growth: scheme name HDFC Mid Cap Fund Direct Growth; fund house HDFC Mutual Fund; fund category Equity; sub-category Mid Cap; plan type Direct; expense ratio 0.75%; exit load Exit load of 1% if redeemed within 1 year.; benchmark index NIFTY Midcap 150 Total Return Index; assets under management (AUM) ₹97,350.48 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹100; minimum additional investment ₹100; lock-in period No lock-in; fund manager Chirag Setalvad; launch date 01-Jan-2013; NAV (net asset value) ₹226.91; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF179K01XQ0.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": null,
+    "field_tags": [
+      "summary",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "hdfc-mid-cap-direct-growth::prose::prose",
+    "chunk_type": "prose",
+    "text": "HDFC Mid Cap Fund Direct Growth. The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.",
+    "display": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.",
+    "scheme_id": "hdfc-mid-cap-direct-growth",
+    "scheme_name": "HDFC Mid-Cap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "prose",
+    "field_tags": [
+      "prose",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::fund_house",
+    "chunk_type": "fact",
+    "text": "The fund house of JM Midcap Fund Direct Growth is JM Financial Mutual Fund. (AMC, asset management company)",
+    "display": "The fund house of JM Midcap Fund Direct Growth is JM Financial Mutual Fund.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "fund_house",
+    "field_tags": [
+      "fund_house",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::sub_category",
+    "chunk_type": "fact",
+    "text": "The sub-category of JM Midcap Fund Direct Growth is Mid Cap. (fund type, category)",
+    "display": "The sub-category of JM Midcap Fund Direct Growth is Mid Cap.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "sub_category",
+    "field_tags": [
+      "sub_category",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::expense_ratio",
+    "chunk_type": "fact",
+    "text": "The expense ratio of JM Midcap Fund Direct Growth is 0.89%. (annual charges, TER, total expense ratio, fund fees, cost)",
+    "display": "The expense ratio of JM Midcap Fund Direct Growth is 0.89%.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "expense_ratio",
+    "field_tags": [
+      "expense_ratio",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::exit_load",
+    "chunk_type": "fact",
+    "text": "The exit load of JM Midcap Fund Direct Growth is Exit load of 1% if redeemed within 180 days.. (redemption charge, exit penalty, early withdrawal fee)",
+    "display": "The exit load of JM Midcap Fund Direct Growth is Exit load of 1% if redeemed within 180 days..",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "exit_load",
+    "field_tags": [
+      "exit_load",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::benchmark",
+    "chunk_type": "fact",
+    "text": "The benchmark index of JM Midcap Fund Direct Growth is NIFTY Midcap 150 Total Return Index. (benchmark, index it tracks, compared against)",
+    "display": "The benchmark index of JM Midcap Fund Direct Growth is NIFTY Midcap 150 Total Return Index.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "benchmark",
+    "field_tags": [
+      "benchmark",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::aum",
+    "chunk_type": "fact",
+    "text": "The assets under management (AUM) of JM Midcap Fund Direct Growth is ₹1,217.01 crore. (fund size, assets managed, corpus)",
+    "display": "The assets under management (AUM) of JM Midcap Fund Direct Growth is ₹1,217.01 crore.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "aum",
+    "field_tags": [
+      "aum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::min_sip",
+    "chunk_type": "fact",
+    "text": "The minimum SIP amount of JM Midcap Fund Direct Growth is ₹100. (minimum SIP, smallest SIP instalment, start SIP amount)",
+    "display": "The minimum SIP amount of JM Midcap Fund Direct Growth is ₹100.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "min_sip",
+    "field_tags": [
+      "min_sip",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::min_lumpsum",
+    "chunk_type": "fact",
+    "text": "The minimum lumpsum investment of JM Midcap Fund Direct Growth is ₹1,000. (minimum one-time investment, lumpsum, minimum investment amount)",
+    "display": "The minimum lumpsum investment of JM Midcap Fund Direct Growth is ₹1,000.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "min_lumpsum",
+    "field_tags": [
+      "min_lumpsum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::min_additional",
+    "chunk_type": "fact",
+    "text": "The minimum additional investment of JM Midcap Fund Direct Growth is ₹100. (additional purchase, top-up minimum)",
+    "display": "The minimum additional investment of JM Midcap Fund Direct Growth is ₹100.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "min_additional",
+    "field_tags": [
+      "min_additional",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::lock_in",
+    "chunk_type": "fact",
+    "text": "The lock-in period of JM Midcap Fund Direct Growth is No lock-in. (lock in, lock-in, holding period restriction)",
+    "display": "The lock-in period of JM Midcap Fund Direct Growth is No lock-in.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "lock_in",
+    "field_tags": [
+      "lock_in",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::fund_manager",
+    "chunk_type": "fact",
+    "text": "The fund manager of JM Midcap Fund Direct Growth is Satish Ramanathan. (manager, who manages the fund)",
+    "display": "The fund manager of JM Midcap Fund Direct Growth is Satish Ramanathan.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "fund_manager",
+    "field_tags": [
+      "fund_manager",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::launch_date",
+    "chunk_type": "fact",
+    "text": "The launch date of JM Midcap Fund Direct Growth is 21-Nov-2022. (inception date, started, launched)",
+    "display": "The launch date of JM Midcap Fund Direct Growth is 21-Nov-2022.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "launch_date",
+    "field_tags": [
+      "launch_date",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::nav",
+    "chunk_type": "fact",
+    "text": "The NAV (net asset value) of JM Midcap Fund Direct Growth is ₹21.94. (net asset value, unit price, current NAV)",
+    "display": "The NAV (net asset value) of JM Midcap Fund Direct Growth is ₹21.94.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "nav",
+    "field_tags": [
+      "nav",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::fact::riskometer",
+    "chunk_type": "fact",
+    "text": "The riskometer (risk level) of JM Midcap Fund Direct Growth is Very High. (risk level, risk rating, how risky)",
+    "display": "The riskometer (risk level) of JM Midcap Fund Direct Growth is Very High.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "riskometer",
+    "field_tags": [
+      "riskometer",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::summary::summary",
+    "chunk_type": "summary",
+    "text": "JM Midcap Fund Direct Growth: scheme name JM Midcap Fund Direct Growth; fund house JM Financial Mutual Fund; fund category Equity; sub-category Mid Cap; plan type Direct; expense ratio 0.89%; exit load Exit load of 1% if redeemed within 180 days.; benchmark index NIFTY Midcap 150 Total Return Index; assets under management (AUM) ₹1,217.01 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹1,000; minimum additional investment ₹100; lock-in period No lock-in; fund manager Satish Ramanathan; launch date 21-Nov-2022; NAV (net asset value) ₹21.94; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF192K01MV6.",
+    "display": "JM Midcap Fund Direct Growth: scheme name JM Midcap Fund Direct Growth; fund house JM Financial Mutual Fund; fund category Equity; sub-category Mid Cap; plan type Direct; expense ratio 0.89%; exit load Exit load of 1% if redeemed within 180 days.; benchmark index NIFTY Midcap 150 Total Return Index; assets under management (AUM) ₹1,217.01 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹1,000; minimum additional investment ₹100; lock-in period No lock-in; fund manager Satish Ramanathan; launch date 21-Nov-2022; NAV (net asset value) ₹21.94; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF192K01MV6.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": null,
+    "field_tags": [
+      "summary",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-midcap-direct-growth::prose::prose",
+    "chunk_type": "prose",
+    "text": "JM Midcap Fund Direct Growth. The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies. There is no assurance that the investment objective of the Scheme will be realized.",
+    "display": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies. There is no assurance that the investment objective of the Scheme will be realized.",
+    "scheme_id": "jm-midcap-direct-growth",
+    "scheme_name": "JM Midcap Fund - Direct Growth",
+    "category": "Mid Cap",
+    "field": "prose",
+    "field_tags": [
+      "prose",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::fund_house",
+    "chunk_type": "fact",
+    "text": "The fund house of JM Flexicap Fund Direct Plan Growth is JM Financial Mutual Fund. (AMC, asset management company)",
+    "display": "The fund house of JM Flexicap Fund Direct Plan Growth is JM Financial Mutual Fund.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "fund_house",
+    "field_tags": [
+      "fund_house",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::sub_category",
+    "chunk_type": "fact",
+    "text": "The sub-category of JM Flexicap Fund Direct Plan Growth is Flexi Cap. (fund type, category)",
+    "display": "The sub-category of JM Flexicap Fund Direct Plan Growth is Flexi Cap.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "sub_category",
+    "field_tags": [
+      "sub_category",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::expense_ratio",
+    "chunk_type": "fact",
+    "text": "The expense ratio of JM Flexicap Fund Direct Plan Growth is 1.08%. (annual charges, TER, total expense ratio, fund fees, cost)",
+    "display": "The expense ratio of JM Flexicap Fund Direct Plan Growth is 1.08%.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "expense_ratio",
+    "field_tags": [
+      "expense_ratio",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::exit_load",
+    "chunk_type": "fact",
+    "text": "The exit load of JM Flexicap Fund Direct Plan Growth is Exit load of 1%, if redeemed within 30 days.. (redemption charge, exit penalty, early withdrawal fee)",
+    "display": "The exit load of JM Flexicap Fund Direct Plan Growth is Exit load of 1%, if redeemed within 30 days..",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "exit_load",
+    "field_tags": [
+      "exit_load",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::benchmark",
+    "chunk_type": "fact",
+    "text": "The benchmark index of JM Flexicap Fund Direct Plan Growth is BSE 500 Total Return Index. (benchmark, index it tracks, compared against)",
+    "display": "The benchmark index of JM Flexicap Fund Direct Plan Growth is BSE 500 Total Return Index.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "benchmark",
+    "field_tags": [
+      "benchmark",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::aum",
+    "chunk_type": "fact",
+    "text": "The assets under management (AUM) of JM Flexicap Fund Direct Plan Growth is ₹5,068.70 crore. (fund size, assets managed, corpus)",
+    "display": "The assets under management (AUM) of JM Flexicap Fund Direct Plan Growth is ₹5,068.70 crore.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "aum",
+    "field_tags": [
+      "aum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::min_sip",
+    "chunk_type": "fact",
+    "text": "The minimum SIP amount of JM Flexicap Fund Direct Plan Growth is ₹100. (minimum SIP, smallest SIP instalment, start SIP amount)",
+    "display": "The minimum SIP amount of JM Flexicap Fund Direct Plan Growth is ₹100.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "min_sip",
+    "field_tags": [
+      "min_sip",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::min_lumpsum",
+    "chunk_type": "fact",
+    "text": "The minimum lumpsum investment of JM Flexicap Fund Direct Plan Growth is ₹1,000. (minimum one-time investment, lumpsum, minimum investment amount)",
+    "display": "The minimum lumpsum investment of JM Flexicap Fund Direct Plan Growth is ₹1,000.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "min_lumpsum",
+    "field_tags": [
+      "min_lumpsum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::min_additional",
+    "chunk_type": "fact",
+    "text": "The minimum additional investment of JM Flexicap Fund Direct Plan Growth is ₹100. (additional purchase, top-up minimum)",
+    "display": "The minimum additional investment of JM Flexicap Fund Direct Plan Growth is ₹100.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "min_additional",
+    "field_tags": [
+      "min_additional",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::lock_in",
+    "chunk_type": "fact",
+    "text": "The lock-in period of JM Flexicap Fund Direct Plan Growth is No lock-in. (lock in, lock-in, holding period restriction)",
+    "display": "The lock-in period of JM Flexicap Fund Direct Plan Growth is No lock-in.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "lock_in",
+    "field_tags": [
+      "lock_in",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::fund_manager",
+    "chunk_type": "fact",
+    "text": "The fund manager of JM Flexicap Fund Direct Plan Growth is Sanjay Kumar Chhabaria. (manager, who manages the fund)",
+    "display": "The fund manager of JM Flexicap Fund Direct Plan Growth is Sanjay Kumar Chhabaria.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "fund_manager",
+    "field_tags": [
+      "fund_manager",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::launch_date",
+    "chunk_type": "fact",
+    "text": "The launch date of JM Flexicap Fund Direct Plan Growth is 01-Jan-2013. (inception date, started, launched)",
+    "display": "The launch date of JM Flexicap Fund Direct Plan Growth is 01-Jan-2013.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "launch_date",
+    "field_tags": [
+      "launch_date",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::nav",
+    "chunk_type": "fact",
+    "text": "The NAV (net asset value) of JM Flexicap Fund Direct Plan Growth is ₹111.90. (net asset value, unit price, current NAV)",
+    "display": "The NAV (net asset value) of JM Flexicap Fund Direct Plan Growth is ₹111.90.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "nav",
+    "field_tags": [
+      "nav",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::fact::riskometer",
+    "chunk_type": "fact",
+    "text": "The riskometer (risk level) of JM Flexicap Fund Direct Plan Growth is Very High. (risk level, risk rating, how risky)",
+    "display": "The riskometer (risk level) of JM Flexicap Fund Direct Plan Growth is Very High.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "riskometer",
+    "field_tags": [
+      "riskometer",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::summary::summary",
+    "chunk_type": "summary",
+    "text": "JM Flexicap Fund Direct Plan Growth: scheme name JM Flexicap Fund Direct Plan Growth; fund house JM Financial Mutual Fund; fund category Equity; sub-category Flexi Cap; plan type Direct; expense ratio 1.08%; exit load Exit load of 1%, if redeemed within 30 days.; benchmark index BSE 500 Total Return Index; assets under management (AUM) ₹5,068.70 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹1,000; minimum additional investment ₹100; lock-in period No lock-in; fund manager Sanjay Kumar Chhabaria; launch date 01-Jan-2013; NAV (net asset value) ₹111.90; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF192K01CC7.",
+    "display": "JM Flexicap Fund Direct Plan Growth: scheme name JM Flexicap Fund Direct Plan Growth; fund house JM Financial Mutual Fund; fund category Equity; sub-category Flexi Cap; plan type Direct; expense ratio 1.08%; exit load Exit load of 1%, if redeemed within 30 days.; benchmark index BSE 500 Total Return Index; assets under management (AUM) ₹5,068.70 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹1,000; minimum additional investment ₹100; lock-in period No lock-in; fund manager Sanjay Kumar Chhabaria; launch date 01-Jan-2013; NAV (net asset value) ₹111.90; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF192K01CC7.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": null,
+    "field_tags": [
+      "summary",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "jm-multi-strategy-direct-growth::prose::prose",
+    "chunk_type": "prose",
+    "text": "JM Flexicap Fund Direct Plan Growth. The scheme which aims to provide capital appreciation by investing primarily in equity and equity related securities of various market depending upon valuation discount or premium amongst Large / Mid & Small cap stocks, the fund will keep varying the weights to capture the value while keeping an optimum Risk / Return profile.",
+    "display": "The scheme which aims to provide capital appreciation by investing primarily in equity and equity related securities of various market depending upon valuation discount or premium amongst Large / Mid & Small cap stocks, the fund will keep varying the weights to capture the value while keeping an optimum Risk / Return profile.",
+    "scheme_id": "jm-multi-strategy-direct-growth",
+    "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+    "category": "Multi Strategy",
+    "field": "prose",
+    "field_tags": [
+      "prose",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::fund_house",
+    "chunk_type": "amc_fact",
+    "text": "The fund house of LIC Mutual Fund is LIC Mutual Fund. (AMC, asset management company)",
+    "display": "The fund house of LIC Mutual Fund is LIC Mutual Fund.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "fund_house",
+    "field_tags": [
+      "fund_house",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::amc_setup_date",
+    "chunk_type": "amc_fact",
+    "text": "The AMC setup date of LIC Mutual Fund is 20 April 1989.",
+    "display": "The AMC setup date of LIC Mutual Fund is 20 April 1989.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "amc_setup_date",
+    "field_tags": [
+      "amc_setup_date",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::sponsor",
+    "chunk_type": "amc_fact",
+    "text": "The sponsor of LIC Mutual Fund is Life Insurance Corporation of India. (sponsored by, parent)",
+    "display": "The sponsor of LIC Mutual Fund is Life Insurance Corporation of India.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "sponsor",
+    "field_tags": [
+      "sponsor",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::trustee",
+    "chunk_type": "amc_fact",
+    "text": "The trustee organisation of LIC Mutual Fund is LIC Mutual Fund Trustee Company Pvt. Ltd..",
+    "display": "The trustee organisation of LIC Mutual Fund is LIC Mutual Fund Trustee Company Pvt. Ltd..",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "trustee",
+    "field_tags": [
+      "trustee",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::chairman",
+    "chunk_type": "amc_fact",
+    "text": "The chairman of LIC Mutual Fund is Mr. V. K. Chopra.",
+    "display": "The chairman of LIC Mutual Fund is Mr. V. K. Chopra.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "chairman",
+    "field_tags": [
+      "chairman",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::managing_director",
+    "chunk_type": "amc_fact",
+    "text": "The managing director of LIC Mutual Fund is Shri Raj Kumar.",
+    "display": "The managing director of LIC Mutual Fund is Shri Raj Kumar.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "managing_director",
+    "field_tags": [
+      "managing_director",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::ceo",
+    "chunk_type": "amc_fact",
+    "text": "The CEO of LIC Mutual Fund is Ravi Kumar Jha(Chief Executive Officer).",
+    "display": "The CEO of LIC Mutual Fund is Ravi Kumar Jha(Chief Executive Officer).",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "ceo",
+    "field_tags": [
+      "ceo",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::cio",
+    "chunk_type": "amc_fact",
+    "text": "The CIO of LIC Mutual Fund is Marzban Irani(Chief Investment Officer-Debt).",
+    "display": "The CIO of LIC Mutual Fund is Marzban Irani(Chief Investment Officer-Debt).",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "cio",
+    "field_tags": [
+      "cio",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::compliance_officer",
+    "chunk_type": "amc_fact",
+    "text": "The compliance officer of LIC Mutual Fund is Mr. Mayank Arora.",
+    "display": "The compliance officer of LIC Mutual Fund is Mr. Mayank Arora.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "compliance_officer",
+    "field_tags": [
+      "compliance_officer",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::total_aum",
+    "chunk_type": "amc_fact",
+    "text": "The total assets under management (AUM) of LIC Mutual Fund is ₹49,119.19 crore. (total fund size, total assets)",
+    "display": "The total assets under management (AUM) of LIC Mutual Fund is ₹49,119.19 crore.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "total_aum",
+    "field_tags": [
+      "total_aum",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::address",
+    "chunk_type": "amc_fact",
+    "text": "The registered address of LIC Mutual Fund is Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020.",
+    "display": "The registered address of LIC Mutual Fund is Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "address",
+    "field_tags": [
+      "address",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::amc_fact::total_schemes",
+    "chunk_type": "amc_fact",
+    "text": "The number of schemes offered of LIC Mutual Fund is 35. (how many funds, number of schemes)",
+    "display": "The number of schemes offered of LIC Mutual Fund is 35.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "total_schemes",
+    "field_tags": [
+      "total_schemes",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::summary::summary",
+    "chunk_type": "summary",
+    "text": "LIC Mutual Fund: fund house LIC Mutual Fund; AMC setup date 20 April 1989; sponsor Life Insurance Corporation of India; trustee organisation LIC Mutual Fund Trustee Company Pvt. Ltd.; chairman Mr. V. K. Chopra; managing director Shri Raj Kumar; CEO Ravi Kumar Jha(Chief Executive Officer); CIO Marzban Irani(Chief Investment Officer-Debt); compliance officer Mr. Mayank Arora; total assets under management (AUM) ₹49,119.19 crore; registered address Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020; number of schemes offered 35.",
+    "display": "LIC Mutual Fund: fund house LIC Mutual Fund; AMC setup date 20 April 1989; sponsor Life Insurance Corporation of India; trustee organisation LIC Mutual Fund Trustee Company Pvt. Ltd.; chairman Mr. V. K. Chopra; managing director Shri Raj Kumar; CEO Ravi Kumar Jha(Chief Executive Officer); CIO Marzban Irani(Chief Investment Officer-Debt); compliance officer Mr. Mayank Arora; total assets under management (AUM) ₹49,119.19 crore; registered address Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020; number of schemes offered 35.",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": null,
+    "field_tags": [
+      "summary",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "lic-mutual-fund-amc::schemes_offered::schemes_offered",
+    "chunk_type": "schemes_offered",
+    "text": "LIC Mutual Fund. Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020\nSchemes offered: LIC MF Infrastructure Fund Direct Growth; LIC MF Gold ETF FoF Direct Growth; LIC MF Multi Cap Fund Direct Growth; LIC MF Small Cap Fund Direct Growth; LIC MF Liquid Fund Direct Growth; LIC MF Nifty Next 50 Index Fund Direct Growth; LIC MF Children's Fund Direct Growth; LIC MF Technology Fund Direct Growth; LIC MF Dividend Yield Fund Direct Growth; LIC MF Manufacturing Fund Direct Growth; LIC MF Large & Mid Cap Fund Direct Growth; LIC MF Multi Asset Allocation Fund Direct Growth; LIC MF Nifty 50 Index Fund Direct Growth; LIC MF BSE Sensex Index Fund Direct Growth; LIC MF Consumption Fund Direct Growth",
+    "display": "Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020\nSchemes offered: LIC MF Infrastructure Fund Direct Growth; LIC MF Gold ETF FoF Direct Growth; LIC MF Multi Cap Fund Direct Growth; LIC MF Small Cap Fund Direct Growth; LIC MF Liquid Fund Direct Growth; LIC MF Nifty Next 50 Index Fund Direct Growth; LIC MF Children's Fund Direct Growth; LIC MF Technology Fund Direct Growth; LIC MF Dividend Yield Fund Direct Growth; LIC MF Manufacturing Fund Direct Growth; LIC MF Large & Mid Cap Fund Direct Growth; LIC MF Multi Asset Allocation Fund Direct Growth; LIC MF Nifty 50 Index Fund Direct Growth; LIC MF BSE Sensex Index Fund Direct Growth; LIC MF Consumption Fund Direct Growth",
+    "scheme_id": "lic-mutual-fund-amc",
+    "scheme_name": "LIC Mutual Fund",
+    "category": "AMC Overview",
+    "field": "schemes_offered",
+    "field_tags": [
+      "schemes_offered",
+      "amc"
+    ],
+    "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::fund_house",
+    "chunk_type": "fact",
+    "text": "The fund house of NJ Flexi Cap Fund Direct Growth is NJ Mutual Fund. (AMC, asset management company)",
+    "display": "The fund house of NJ Flexi Cap Fund Direct Growth is NJ Mutual Fund.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "fund_house",
+    "field_tags": [
+      "fund_house",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::sub_category",
+    "chunk_type": "fact",
+    "text": "The sub-category of NJ Flexi Cap Fund Direct Growth is Flexi Cap. (fund type, category)",
+    "display": "The sub-category of NJ Flexi Cap Fund Direct Growth is Flexi Cap.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "sub_category",
+    "field_tags": [
+      "sub_category",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::expense_ratio",
+    "chunk_type": "fact",
+    "text": "The expense ratio of NJ Flexi Cap Fund Direct Growth is 1.03%. (annual charges, TER, total expense ratio, fund fees, cost)",
+    "display": "The expense ratio of NJ Flexi Cap Fund Direct Growth is 1.03%.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "expense_ratio",
+    "field_tags": [
+      "expense_ratio",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::exit_load",
+    "chunk_type": "fact",
+    "text": "The exit load of NJ Flexi Cap Fund Direct Growth is Nil. (redemption charge, exit penalty, early withdrawal fee)",
+    "display": "The exit load of NJ Flexi Cap Fund Direct Growth is Nil.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "exit_load",
+    "field_tags": [
+      "exit_load",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::benchmark",
+    "chunk_type": "fact",
+    "text": "The benchmark index of NJ Flexi Cap Fund Direct Growth is NIFTY 500 Total Return Index. (benchmark, index it tracks, compared against)",
+    "display": "The benchmark index of NJ Flexi Cap Fund Direct Growth is NIFTY 500 Total Return Index.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "benchmark",
+    "field_tags": [
+      "benchmark",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::aum",
+    "chunk_type": "fact",
+    "text": "The assets under management (AUM) of NJ Flexi Cap Fund Direct Growth is ₹2,559.89 crore. (fund size, assets managed, corpus)",
+    "display": "The assets under management (AUM) of NJ Flexi Cap Fund Direct Growth is ₹2,559.89 crore.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "aum",
+    "field_tags": [
+      "aum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::min_sip",
+    "chunk_type": "fact",
+    "text": "The minimum SIP amount of NJ Flexi Cap Fund Direct Growth is ₹100. (minimum SIP, smallest SIP instalment, start SIP amount)",
+    "display": "The minimum SIP amount of NJ Flexi Cap Fund Direct Growth is ₹100.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "min_sip",
+    "field_tags": [
+      "min_sip",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::min_lumpsum",
+    "chunk_type": "fact",
+    "text": "The minimum lumpsum investment of NJ Flexi Cap Fund Direct Growth is ₹500. (minimum one-time investment, lumpsum, minimum investment amount)",
+    "display": "The minimum lumpsum investment of NJ Flexi Cap Fund Direct Growth is ₹500.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "min_lumpsum",
+    "field_tags": [
+      "min_lumpsum",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::min_additional",
+    "chunk_type": "fact",
+    "text": "The minimum additional investment of NJ Flexi Cap Fund Direct Growth is ₹500. (additional purchase, top-up minimum)",
+    "display": "The minimum additional investment of NJ Flexi Cap Fund Direct Growth is ₹500.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "min_additional",
+    "field_tags": [
+      "min_additional",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::lock_in",
+    "chunk_type": "fact",
+    "text": "The lock-in period of NJ Flexi Cap Fund Direct Growth is No lock-in. (lock in, lock-in, holding period restriction)",
+    "display": "The lock-in period of NJ Flexi Cap Fund Direct Growth is No lock-in.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "lock_in",
+    "field_tags": [
+      "lock_in",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::fund_manager",
+    "chunk_type": "fact",
+    "text": "The fund manager of NJ Flexi Cap Fund Direct Growth is Dhaval Patel. (manager, who manages the fund)",
+    "display": "The fund manager of NJ Flexi Cap Fund Direct Growth is Dhaval Patel.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "fund_manager",
+    "field_tags": [
+      "fund_manager",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::launch_date",
+    "chunk_type": "fact",
+    "text": "The launch date of NJ Flexi Cap Fund Direct Growth is 05-Sep-2023. (inception date, started, launched)",
+    "display": "The launch date of NJ Flexi Cap Fund Direct Growth is 05-Sep-2023.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "launch_date",
+    "field_tags": [
+      "launch_date",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::nav",
+    "chunk_type": "fact",
+    "text": "The NAV (net asset value) of NJ Flexi Cap Fund Direct Growth is ₹13.37. (net asset value, unit price, current NAV)",
+    "display": "The NAV (net asset value) of NJ Flexi Cap Fund Direct Growth is ₹13.37.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "nav",
+    "field_tags": [
+      "nav",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::fact::riskometer",
+    "chunk_type": "fact",
+    "text": "The riskometer (risk level) of NJ Flexi Cap Fund Direct Growth is Very High. (risk level, risk rating, how risky)",
+    "display": "The riskometer (risk level) of NJ Flexi Cap Fund Direct Growth is Very High.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "riskometer",
+    "field_tags": [
+      "riskometer",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::summary::summary",
+    "chunk_type": "summary",
+    "text": "NJ Flexi Cap Fund Direct Growth: scheme name NJ Flexi Cap Fund Direct Growth; fund house NJ Mutual Fund; fund category Equity; sub-category Flexi Cap; plan type Direct; expense ratio 1.03%; exit load Nil; benchmark index NIFTY 500 Total Return Index; assets under management (AUM) ₹2,559.89 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹500; minimum additional investment ₹500; lock-in period No lock-in; fund manager Dhaval Patel; launch date 05-Sep-2023; NAV (net asset value) ₹13.37; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF0J8L01156.",
+    "display": "NJ Flexi Cap Fund Direct Growth: scheme name NJ Flexi Cap Fund Direct Growth; fund house NJ Mutual Fund; fund category Equity; sub-category Flexi Cap; plan type Direct; expense ratio 1.03%; exit load Nil; benchmark index NIFTY 500 Total Return Index; assets under management (AUM) ₹2,559.89 crore; minimum SIP amount ₹100; minimum lumpsum investment ₹500; minimum additional investment ₹500; lock-in period No lock-in; fund manager Dhaval Patel; launch date 05-Sep-2023; NAV (net asset value) ₹13.37; NAV date 25-Jun-2026; riskometer (risk level) Very High; ISIN INF0J8L01156.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": null,
+    "field_tags": [
+      "summary",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  },
+  {
+    "chunk_id": "nj-flexi-cap-direct-growth::prose::prose",
+    "chunk_type": "prose",
+    "text": "NJ Flexi Cap Fund Direct Growth. The Scheme is seeks to generate long term capital appreciation by investing in equity and equity related instruments across market capitalizations.",
+    "display": "The Scheme is seeks to generate long term capital appreciation by investing in equity and equity related instruments across market capitalizations.",
+    "scheme_id": "nj-flexi-cap-direct-growth",
+    "scheme_name": "NJ Flexi Cap Fund - Direct Growth",
+    "category": "Flexi Cap",
+    "field": "prose",
+    "field_tags": [
+      "prose",
+      "scheme"
+    ],
+    "source_url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
+    "fetched_at": "2026-06-28"
+  }
+]

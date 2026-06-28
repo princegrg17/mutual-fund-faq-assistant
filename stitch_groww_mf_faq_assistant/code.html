@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MF FAQ Assistant | Luminous</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "tertiary": "#505f76",
+                "on-secondary": "#ffffff",
+                "on-secondary-container": "#5c647a",
+                "inverse-surface": "#2d3133",
+                "on-surface": "#191c1e",
+                "tertiary-container": "#a8b9d2",
+                "surface-bright": "#f7f9fb",
+                "surface-tint": "#006c4f",
+                "error-container": "#ffdad6",
+                "tertiary-fixed-dim": "#b7c8e1",
+                "error": "#ba1a1a",
+                "inverse-primary": "#2fe0aa",
+                "surface": "#f7f9fb",
+                "outline-variant": "#bacac1",
+                "surface-variant": "#e0e3e5",
+                "outline": "#6b7b72",
+                "surface-container-lowest": "#ffffff",
+                "on-surface-variant": "#3c4a43",
+                "on-primary-container": "#00533c",
+                "surface-container-high": "#e6e8ea",
+                "on-primary-fixed": "#002116",
+                "primary": "#006c4f",
+                "on-secondary-fixed-variant": "#3f465c",
+                "primary-container": "#00d09c",
+                "primary-fixed": "#59fdc5",
+                "on-secondary-fixed": "#131b2e",
+                "on-primary": "#ffffff",
+                "on-tertiary-fixed-variant": "#38485d",
+                "tertiary-fixed": "#d3e4fe",
+                "background": "#f7f9fb",
+                "secondary": "#565e74",
+                "on-tertiary-fixed": "#0b1c30",
+                "on-tertiary": "#ffffff",
+                "secondary-container": "#dae2fd",
+                "primary-fixed-dim": "#2fe0aa",
+                "secondary-fixed": "#dae2fd",
+                "on-error": "#ffffff",
+                "on-tertiary-container": "#3a495f",
+                "surface-container-low": "#f2f4f6",
+                "surface-dim": "#d8dadc",
+                "inverse-on-surface": "#eff1f3",
+                "on-background": "#191c1e",
+                "secondary-fixed-dim": "#bec6e0",
+                "surface-container-highest": "#e0e3e5",
+                "on-primary-fixed-variant": "#00513b",
+                "surface-container": "#eceef0",
+                "on-error-container": "#93000a",
+                "status-warning": "#FFB800"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "unit": "4px",
+                "section-gap": "4rem",
+                "container-padding-desktop": "2.5rem",
+                "container-padding-mobile": "1rem",
+                "gutter": "1.5rem"
+        },
+        "fontFamily": {
+                "body-lg": [
+                        "Inter"
+                ],
+                "headline-md": [
+                        "Inter"
+                ],
+                "display-lg": [
+                        "Inter"
+                ],
+                "body-md": [
+                        "Inter"
+                ],
+                "headline-lg": [
+                        "Inter"
+                ],
+                "label-md": [
+                        "Inter"
+                ],
+                "headline-lg-mobile": [
+                        "Inter"
+                ],
+                "label-sm": [
+                        "Inter"
+                ]
+        },
+        "fontSize": {
+                "body-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "1.6",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-md": [
+                        "24px",
+                        {
+                                "lineHeight": "1.3",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "500"
+                        }
+                ],
+                "display-lg": [
+                        "48px",
+                        {
+                                "lineHeight": "1.1",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "1.6",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-lg": [
+                        "32px",
+                        {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "label-md": [
+                        "12px",
+                        {
+                                "lineHeight": "1",
+                                "letterSpacing": "0.08em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "headline-lg-mobile": [
+                        "24px",
+                        {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "label-sm": [
+                        "10px",
+                        {
+                                "lineHeight": "1",
+                                "letterSpacing": "0.1em",
+                                "fontWeight": "700"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            background-image: radial-gradient(at 0% 0%, hsla(165,100%,41%,0.08) 0px, transparent 50%),
+                              radial-gradient(at 100% 0%, hsla(233,100%,66%,0.05) 0px, transparent 50%),
+                              radial-gradient(at 100% 100%, hsla(165,100%,41%,0.05) 0px, transparent 50%),
+                              radial-gradient(at 0% 100%, hsla(233,100%,66%,0.08) 0px, transparent 50%);
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+        }
+        .glass-input {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(0, 208, 156, 0.3);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease;
+        }
+        .glass-input:focus-within {
+            border-color: rgba(0, 208, 156, 1);
+            box-shadow: 0 4px 20px rgba(0, 208, 156, 0.15);
+        }
+</style>
+</head>
+<body class="text-on-surface antialiased h-screen flex flex-col overflow-hidden">
+<!-- Navbar -->
+<header class="glass-card sticky top-0 z-50 px-container-padding-desktop py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-2xl">auto_awesome</span>
+</div>
+<h1 class="font-headline-md text-on-surface">MF Assistant</h1>
+</div>
+<nav class="hidden md:flex gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-medium" href="#">Dashboard</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-medium" href="#">History</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-medium" href="#">Settings</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-surface-variant flex items-center justify-center text-on-surface transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center overflow-hidden border-2 border-white shadow-sm">
+<img alt="User Avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWL738uZzK_plWDLSrnR29_LSE-EWCWZNML_k-buokgleqKI63qB-5f2U2J2CS2JBMTODCtyZZkahawO616zXDzlS8g7ZdoBW3BQhxL5vM1THI3QG_03gtUKHVL18ZLKTvwAJEpvRwz3Kwtaxg3OjuR1-Y0rEdAZTrNzoBrvt3gKEigiUKDXjMlbxuRXqrb1lH5yHXX4XsJUbQgeO0w4pHVMoSqUovVagu7xSwoxH4CHFciCSI4alE"/>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-1 overflow-hidden flex flex-col relative w-full max-w-5xl mx-auto px-4 lg:px-0 mt-8 mb-6">
+<!-- Chat Container -->
+<div class="glass-card flex-1 rounded-[2rem] flex flex-col overflow-hidden relative shadow-xl">
+<!-- Chat Scroll Area -->
+<div class="flex-1 overflow-y-auto custom-scrollbar p-6 md:p-10 flex flex-col gap-8 pb-32">
+<!-- Hero Greeting (Visible when empty, normally hides as chat fills, keeping here for design) -->
+<div class="text-center mt-10 mb-8 flex flex-col items-center justify-center max-w-2xl mx-auto">
+<div class="w-16 h-16 rounded-full bg-primary-container/20 flex items-center justify-center mb-6 text-primary-container">
+<span class="material-symbols-outlined text-3xl">smart_toy</span>
+</div>
+<h2 class="font-display-lg text-on-surface mb-4 tracking-tight">Ask about mutual fund facts</h2>
+<p class="font-body-lg text-on-surface-variant mb-10">I can help you understand funds, analyze performance, and make informed decisions.</p>
+<!-- Example Chips -->
+<div class="flex flex-wrap justify-center gap-3 w-full">
+<button class="glass-card px-5 py-3 rounded-full text-sm font-medium hover:bg-surface-container transition-colors flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-lg">trending_up</span>
+                            Top performing large cap funds
+                        </button>
+<button class="glass-card px-5 py-3 rounded-full text-sm font-medium hover:bg-surface-container transition-colors flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-lg">compare_arrows</span>
+                            Compare Nifty 50 vs Sensex
+                        </button>
+<button class="glass-card px-5 py-3 rounded-full text-sm font-medium hover:bg-surface-container transition-colors flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-lg">calculate</span>
+                            Tax implications on ELSS
+                        </button>
+</div>
+</div>
+<!-- Example Conversation (User) -->
+<div class="flex justify-end mb-4 opacity-0 animate-[fadeIn_0.5s_ease-out_forwards]">
+<div class="max-w-[80%] md:max-w-[70%]">
+<div class="bg-primary-container text-white rounded-2xl rounded-tr-sm px-6 py-4 shadow-sm text-[15px] leading-relaxed">
+                            What is the expense ratio for Parag Parikh Flexi Cap Fund and how does it compare to the category average?
+                        </div>
+<div class="text-xs text-on-surface-variant text-right mt-2 mr-2">10:24 AM</div>
+</div>
+</div>
+<!-- Example Conversation (AI) -->
+<div class="flex justify-start mb-4 opacity-0 animate-[fadeIn_0.5s_ease-out_0.2s_forwards]">
+<div class="w-8 h-8 rounded-full bg-primary-container/20 flex items-center justify-center mr-4 shrink-0 self-end mb-6 text-primary-container">
+<span class="material-symbols-outlined text-sm">smart_toy</span>
+</div>
+<div class="max-w-[85%] md:max-w-[75%]">
+<div class="glass-card bg-white/60 rounded-2xl rounded-tl-sm px-6 py-5 shadow-sm text-[15px] leading-relaxed text-on-surface">
+<p class="mb-3">The current expense ratio for the <strong>Parag Parikh Flexi Cap Fund (Direct Plan)</strong> is approximately <strong>0.65%</strong>.</p>
+<p class="mb-4">Compared to the Flexi Cap category average, which typically hovers around 0.85% to 1.00% for direct plans, Parag Parikh's expense ratio is quite competitive and below the category average.</p>
+<!-- Source Citation -->
+<div class="mt-4 pt-4 border-t border-gray-200/50">
+<span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider mb-2 block">Sources</span>
+<div class="flex gap-2 overflow-x-auto custom-scrollbar pb-1">
+<a class="flex items-center gap-2 bg-white/80 border border-gray-200 rounded-lg px-3 py-2 text-xs hover:border-primary-container transition-colors shrink-0" href="#">
+<div class="w-4 h-4 rounded bg-gray-100 flex items-center justify-center">
+<span class="material-symbols-outlined text-[10px] text-gray-500">article</span>
+</div>
+<span class="truncate max-w-[120px] text-on-surface-variant font-medium">Fund Factsheet - Oct 2023</span>
+</a>
+</div>
+</div>
+</div>
+<div class="text-xs text-on-surface-variant mt-2 ml-2">10:25 AM</div>
+</div>
+</div>
+</div>
+<!-- Input Area -->
+<div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white/90 via-white/80 to-transparent pt-12 backdrop-blur-sm">
+<div class="max-w-4xl mx-auto relative group">
+<div class="glass-input rounded-full flex items-center p-2 pr-3">
+<button class="p-3 text-on-surface-variant hover:text-primary transition-colors rounded-full hover:bg-black/5">
+<span class="material-symbols-outlined">attach_file</span>
+</button>
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-on-surface placeholder-on-surface-variant/50 px-2 py-3 text-[15px]" placeholder="Ask a question about mutual funds..." type="text"/>
+<button class="p-3 bg-[#00d09c] text-white rounded-full hover:bg-[#00b386] transition-colors shadow-md flex items-center justify-center transform group-focus-within:scale-105 duration-200">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+<div class="text-center mt-3">
+<span class="text-[11px] text-on-surface-variant/70">MF Assistant can make mistakes. Consider verifying important information.</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</body></html>

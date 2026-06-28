@@ -1,0 +1,30 @@
+{
+  "scheme_id": "jm-midcap-direct-growth",
+  "scheme_name": "JM Midcap Fund - Direct Growth",
+  "category": "Mid Cap",
+  "source_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+  "fetched_at": "2026-06-28",
+  "is_amc_page": false,
+  "facts": {
+    "scheme_name": "JM Midcap Fund Direct Growth",
+    "fund_house": "JM Financial Mutual Fund",
+    "fund_category": "Equity",
+    "sub_category": "Mid Cap",
+    "plan_type": "Direct",
+    "expense_ratio": "0.89%",
+    "exit_load": "Exit load of 1% if redeemed within 180 days.",
+    "benchmark": "NIFTY Midcap 150 Total Return Index",
+    "aum": "₹1,217.01 crore",
+    "min_sip": "₹100",
+    "min_lumpsum": "₹1,000",
+    "min_additional": "₹100",
+    "lock_in": "No lock-in",
+    "fund_manager": "Satish Ramanathan",
+    "launch_date": "21-Nov-2022",
+    "nav": "₹21.94",
+    "nav_date": "25-Jun-2026",
+    "riskometer": "Very High",
+    "isin": "INF192K01MV6"
+  },
+  "prose": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies. There is no assurance that the investment objective of the Scheme will be realized."
+}

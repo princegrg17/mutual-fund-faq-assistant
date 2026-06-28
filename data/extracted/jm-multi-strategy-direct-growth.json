@@ -1,0 +1,30 @@
+{
+  "scheme_id": "jm-multi-strategy-direct-growth",
+  "scheme_name": "JM Multi Strategy Fund - Direct Growth",
+  "category": "Multi Strategy",
+  "source_url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
+  "fetched_at": "2026-06-28",
+  "is_amc_page": false,
+  "facts": {
+    "scheme_name": "JM Flexicap Fund Direct Plan Growth",
+    "fund_house": "JM Financial Mutual Fund",
+    "fund_category": "Equity",
+    "sub_category": "Flexi Cap",
+    "plan_type": "Direct",
+    "expense_ratio": "1.08%",
+    "exit_load": "Exit load of 1%, if redeemed within 30 days.",
+    "benchmark": "BSE 500 Total Return Index",
+    "aum": "₹5,068.70 crore",
+    "min_sip": "₹100",
+    "min_lumpsum": "₹1,000",
+    "min_additional": "₹100",
+    "lock_in": "No lock-in",
+    "fund_manager": "Sanjay Kumar Chhabaria",
+    "launch_date": "01-Jan-2013",
+    "nav": "₹111.90",
+    "nav_date": "25-Jun-2026",
+    "riskometer": "Very High",
+    "isin": "INF192K01CC7"
+  },
+  "prose": "The scheme which aims to provide capital appreciation by investing primarily in equity and equity related securities of various market depending upon valuation discount or premium amongst Large / Mid & Small cap stocks, the fund will keep varying the weights to capture the value while keeping an optimum Risk / Return profile."
+}

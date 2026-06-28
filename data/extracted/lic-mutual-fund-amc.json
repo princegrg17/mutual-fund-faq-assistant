@@ -1,0 +1,23 @@
+{
+  "scheme_id": "lic-mutual-fund-amc",
+  "scheme_name": "LIC Mutual Fund",
+  "category": "AMC Overview",
+  "source_url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
+  "fetched_at": "2026-06-28",
+  "is_amc_page": true,
+  "facts": {
+    "fund_house": "LIC Mutual Fund",
+    "amc_setup_date": "20 April 1989",
+    "sponsor": "Life Insurance Corporation of India",
+    "trustee": "LIC Mutual Fund Trustee Company Pvt. Ltd.",
+    "chairman": "Mr. V. K. Chopra",
+    "managing_director": "Shri Raj Kumar",
+    "ceo": "Ravi Kumar Jha(Chief Executive Officer)",
+    "cio": "Marzban Irani(Chief Investment Officer-Debt)",
+    "compliance_officer": "Mr. Mayank Arora",
+    "total_aum": "₹49,119.19 crore",
+    "address": "Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020",
+    "total_schemes": "35"
+  },
+  "prose": "Industrial Assurance BuildingGround Floor, Opp. Churchgate Station Mumbai 400020\nSchemes offered: LIC MF Infrastructure Fund Direct Growth; LIC MF Gold ETF FoF Direct Growth; LIC MF Multi Cap Fund Direct Growth; LIC MF Small Cap Fund Direct Growth; LIC MF Liquid Fund Direct Growth; LIC MF Nifty Next 50 Index Fund Direct Growth; LIC MF Children's Fund Direct Growth; LIC MF Technology Fund Direct Growth; LIC MF Dividend Yield Fund Direct Growth; LIC MF Manufacturing Fund Direct Growth; LIC MF Large & Mid Cap Fund Direct Growth; LIC MF Multi Asset Allocation Fund Direct Growth; LIC MF Nifty 50 Index Fund Direct Growth; LIC MF BSE Sensex Index Fund Direct Growth; LIC MF Consumption Fund Direct Growth"
+}
