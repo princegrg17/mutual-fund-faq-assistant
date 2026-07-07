@@ -10,6 +10,8 @@ resource (AMFI / SEBI).
 
 > **Facts-only. No investment advice.**
 
+**🔗 Live demo:** https://mutual-fund-faq-assistant-prince.streamlit.app/
+
 ---
 
 ## Selected schemes (corpus)
