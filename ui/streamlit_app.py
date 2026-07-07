@@ -47,6 +47,29 @@ except Exception:  # noqa: BLE001 — no secrets.toml locally is fine
 
 from app import pipeline  # noqa: E402
 
+
+@st.cache_resource(show_spinner="Building the fund index…")
+def _bootstrap_index() -> bool:
+    """Build the Chroma vector index + facts.db on first run if they are missing.
+
+    The ingested source artifacts (``data/chunks.json`` / ``data/facts.json``)
+    are committed to the repo, but the derived index (``data/chroma/`` and
+    ``data/facts.db``) is gitignored — so on a fresh deploy (e.g. Streamlit
+    Cloud) it does not exist yet. Rebuild it once, deterministically, from the
+    committed chunks/facts. No network/Playwright ingestion is involved.
+    """
+    from config import CHROMA_DIR, FACTS_DB
+
+    if FACTS_DB.exists() and (CHROMA_DIR / "chroma.sqlite3").exists():
+        return True
+    from ingest import build_index
+
+    build_index.run()
+    return True
+
+
+_bootstrap_index()
+
 EXAMPLES = [
     ("trending_up", "What is the expense ratio of HDFC Mid-Cap Fund?"),
     ("payments", "What is the exit load of JM Midcap Fund?"),
