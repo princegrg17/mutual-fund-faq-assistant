@@ -15,6 +15,7 @@ intentionally replaced). Backend wiring (pipeline.answer) is unchanged.
 from __future__ import annotations
 
 import html as _html
+import os
 import sys
 from pathlib import Path
 
@@ -24,6 +25,25 @@ import streamlit as st
 _ROOT = Path(__file__).resolve().parent.parent
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
+
+# --- Streamlit Cloud deploy shims (must run BEFORE importing the pipeline) --- #
+# 1) Chroma needs sqlite3 >= 3.35, but Streamlit Community Cloud ships an older
+#    system sqlite. Swap in the bundled pysqlite3 when present (no-op locally on
+#    Windows/macOS where pysqlite3-binary isn't installed).
+try:
+    __import__("pysqlite3")
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    pass
+
+# 2) Bridge Streamlit secrets → env vars so config.py (pydantic-settings) picks
+#    up ANTHROPIC_API_KEY / model ids on Streamlit Cloud (no .env there).
+try:
+    for _k in ("ANTHROPIC_API_KEY", "ANTHROPIC_MODEL", "EMBED_MODEL"):
+        if _k in st.secrets and not os.environ.get(_k):
+            os.environ[_k] = str(st.secrets[_k])
+except Exception:  # noqa: BLE001 — no secrets.toml locally is fine
+    pass
 
 from app import pipeline  # noqa: E402
 

@@ -3,6 +3,9 @@ beautifulsoup4
 lxml
 sentence-transformers
 chromadb
+# Streamlit Cloud ships sqlite3 < 3.35 which Chroma rejects; the app swaps this
+# in at startup. Linux-only marker so local Windows/macOS installs are unaffected.
+pysqlite3-binary; sys_platform == "linux"
 anthropic
 streamlit
 pydantic-settings
