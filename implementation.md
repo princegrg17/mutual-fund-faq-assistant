@@ -67,10 +67,13 @@ RAG/
 │   └── prompts.py             # system prompts
 ├── ui/
 │   └── streamlit_app.py       # chat UI
-└── tests/
-    ├── test_guardrails.py
-    ├── test_classify.py
-    └── test_extract.py
+├── tests/
+│   ├── test_guardrails.py
+│   ├── test_classify.py
+│   └── test_extract.py
+└── .github/
+    └── workflows/
+        └── ingest.yml         # scheduled daily ingestion (GitHub Actions)
 ```
 
 ---
@@ -317,6 +320,56 @@ Implement in this order; `pipeline.py` wires them together.
 - `tests/test_extract.py`: extractor returns normalized values on a saved HTML fixture.
 - `README.md`: setup, selected schemes, RAG architecture overview, known limitations,
   disclaimer snippet (per context.md deliverables).
+
+### Phase 7 — Scheduler (`.github/workflows/ingest.yml`) — *implemented*
+
+**Goal:** run the ingestion pipeline automatically once a day so `facts.db` and the
+Chroma index carry fresh Groww data without a manual `python -m ingest.build_index`.
+Implemented as a **GitHub Actions scheduled workflow** (built later — this section is
+the spec).
+
+**Trigger.**
+- `schedule: cron` — one daily run (e.g. `0 1 * * *`, ~06:30 IST; note GitHub cron is
+  **UTC** and best-effort, so it may start a few minutes late).
+- `workflow_dispatch` — a manual "Run now" button for re-ingesting on selector drift
+  or ad-hoc refreshes.
+
+**Job outline (single Ubuntu runner).**
+1. `actions/checkout`.
+2. `actions/setup-python` (3.11) with pip cache.
+3. `pip install -r requirements.txt` then `playwright install --with-deps chromium`
+   (Linux needs `--with-deps` for the browser system libraries).
+4. Provide `ANTHROPIC_API_KEY` from **GitHub Actions secrets** (`${{ secrets.* }}`),
+   never committed. Note: `build_index` itself does not call Claude, so ingestion can
+   run even without the key; keep the secret optional for this job.
+5. Run the entrypoint: `python -m ingest.build_index` (which runs fetch → extract →
+   chunk → index and writes `data/facts.db` + `data/chroma/`).
+
+**Persisting the refreshed index (decide before building).** The runner is ephemeral,
+so the regenerated `data/` must be published somewhere the app can read. Options, in
+rough order of simplicity:
+- **Commit back to the repo** — add/commit `data/facts.db`, `data/chroma/`, and
+  `data/raw/` on a bot commit (`git add data && git commit && git push`). Simplest if
+  the app is redeployed from the repo; downside is binary churn in git history.
+- **Upload as a build artifact / release asset** — `actions/upload-artifact`; the
+  deploy step (or the app host) pulls the latest artifact. Keeps git clean.
+- **Push to external storage** (S3/GCS/etc.) that the running app mounts or syncs.
+  Best if the Streamlit app is hosted separately from the repo.
+
+**Resilience & guardrails for the job.**
+- **Fetch failures:** Playwright/network flakiness or Groww selector drift can make a
+  field `null` (Phase 2 already logs a loud warning). The workflow should **fail
+  visibly** (non-zero exit) if a critical field is null across all schemes, so a broken
+  selector surfaces as a red run instead of silently shipping empty facts. Consider a
+  step that greps the run log for the Phase 2 warning and fails the job.
+- **Idempotency:** re-ingestion **upserts** by `chunk_id` / `INSERT OR REPLACE`
+  (Phase 3, edgecase C4/C5), so a daily run cleanly overwrites — no duplicate chunks.
+- **Freshness:** `fetched_at` is refreshed each run and flows into the answer footer
+  automatically (§6), so the daily run keeps "Last updated from sources" current.
+- **Notifications:** rely on GitHub's failed-workflow email, or add a notify step.
+
+**Secrets & safety.** Only `ANTHROPIC_API_KEY` (if used) lives in Actions secrets;
+no PII is fetched or logged by ingestion. Restrict the workflow to the default branch.
 
 ---
 

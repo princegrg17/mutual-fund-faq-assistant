@@ -1,0 +1,81 @@
+name: Daily ingestion
+
+# Phase 7 scheduler: refresh facts.db + Chroma index from the 5 Groww pages.
+# Runs the full ingestion pipeline (fetch → extract → chunk → build_index) on a
+# daily cron, plus a manual "Run now" button for selector-drift / ad-hoc refreshes.
+
+on:
+  schedule:
+    # 04:00 UTC = 09:30 IST. GitHub cron is UTC and best-effort (may start late).
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}
+
+# Only ever run this on the default branch; never on forks/PRs.
+permissions:
+  contents: write        # needed to commit the refreshed index back
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # build_index does not call Claude, so the key is optional for ingestion.
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # Linux needs --with-deps for the browser system libraries.
+          playwright install --with-deps chromium
+
+      - name: Fetch (Playwright → data/raw/)
+        run: python -m ingest.fetch
+
+      # Capture extractor output so we can fail the run on selector/JSON drift
+      # (Phase 2 prints a loud WARNING when a critical field is null everywhere).
+      - name: Extract (facts + prose)
+        run: |
+          set -o pipefail
+          python -m ingest.extract 2>&1 | tee extract.log
+
+      - name: Fail on selector drift
+        run: |
+          if grep -q "is null on all scheme pages" extract.log; then
+            echo "::error::Critical field null across all schemes — selector/JSON drift."
+            exit 1
+          fi
+
+      - name: Chunk
+        run: python -m ingest.chunk
+
+      - name: Build index (Chroma + SQLite)
+        run: python -m ingest.build_index
+
+      # Persist the regenerated artifacts. data/ is gitignored, so force-add.
+      - name: Commit refreshed index
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/facts.db data/chroma data/raw
+          if git diff --cached --quiet; then
+            echo "No changes in ingested data — nothing to commit."
+          else
+            git commit -m "chore(ingest): daily refresh of facts.db + Chroma index"
+            git push
+          fi
