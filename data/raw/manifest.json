@@ -3,40 +3,40 @@
     "scheme_id": "hdfc-mid-cap-direct-growth",
     "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
     "status": "ok",
-    "fetched_at": "2026-08-29",
-    "chars": 566903,
+    "fetched_at": "2026-08-30",
+    "chars": 566916,
     "html_file": "hdfc-mid-cap-direct-growth.html"
   },
   "nj-flexi-cap-direct-growth": {
     "scheme_id": "nj-flexi-cap-direct-growth",
     "url": "https://groww.in/mutual-funds/nj-flexi-cap-fund-direct-growth",
     "status": "ok",
-    "fetched_at": "2026-08-29",
-    "chars": 472848,
+    "fetched_at": "2026-08-30",
+    "chars": 449762,
     "html_file": "nj-flexi-cap-direct-growth.html"
   },
   "jm-multi-strategy-direct-growth": {
     "scheme_id": "jm-multi-strategy-direct-growth",
     "url": "https://groww.in/mutual-funds/jm-multi-strategy-fund-direct-growth",
     "status": "ok",
-    "fetched_at": "2026-08-29",
-    "chars": 578748,
+    "fetched_at": "2026-08-30",
+    "chars": 578750,
     "html_file": "jm-multi-strategy-direct-growth.html"
   },
   "jm-midcap-direct-growth": {
     "scheme_id": "jm-midcap-direct-growth",
     "url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
     "status": "ok",
-    "fetched_at": "2026-08-29",
-    "chars": 553417,
+    "fetched_at": "2026-08-30",
+    "chars": 553444,
     "html_file": "jm-midcap-direct-growth.html"
   },
   "lic-mutual-fund-amc": {
     "scheme_id": "lic-mutual-fund-amc",
     "url": "https://groww.in/mutual-funds/amc/lic-mutual-funds",
     "status": "ok",
-    "fetched_at": "2026-08-29",
-    "chars": 338864,
+    "fetched_at": "2026-08-30",
+    "chars": 338821,
     "html_file": "lic-mutual-fund-amc.html"
   }
 }
